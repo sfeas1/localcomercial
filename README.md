@@ -21,5 +21,3 @@ Este repositorio contiene el código del sitio web **Racks&Racks**, un local esp
 ### Objetivo
 
 El sitio busca reflejar la identidad de la marca con un diseño **moderno, minimalista y funcional**, resaltando los productos en un entorno visual elegante.
-
-👉 [Ver sitio en GitHub Pages](URL_DEL_SITIO)
