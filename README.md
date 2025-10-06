@@ -22,6 +22,4 @@ Este repositorio contiene el código del sitio web **Racks&Racks**, un local esp
 
 El sitio busca reflejar la identidad de la marca con un diseño **moderno, minimalista y funcional**, resaltando los productos en un entorno visual elegante.
 
-### Demo
-
 👉 [Ver sitio en GitHub Pages](URL_DEL_SITIO)
