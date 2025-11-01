@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Racks&Racks — Promociones</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="promociones">
+  <div class="box">
+    <header>
+      <div class="brand">
+        <div class="logo">
+          <img src="../img/logo.jpeg" alt="logo">
+          <h1>Racks&Racks</h1>
+          <h3 class="tag">Racks de TV • Diseño moderno</h3>
+        </div>
+      </div>
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="promociones.html">Promociones</a>
+        <a href="contacto.html" class="cta">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+  <h2>Promociones Especiales</h2>
+  <p>Seleccioná una promoción y descubrí cuánto podés ahorrar en tu próxima compra.</p>
+
+  <section class="promo-cards">
+    <div class="card">
+      <h3>Llevá 2 Racks y obtené 50% en la segunda unidad!!</h3>
+      <p>El descuento se aplica al producto de menor valor.</p>
+    </div>
+    <div class="card">
+      <h3>3x2 en Lámparas!!</h3>
+      <p>Iluminá tu hogar llevando 3 lámparas al precio de 2!</p>
+    </div>
+    <div class="card">
+      <h3>10% de descuento por compras superiores a $300.000.</h3>
+      <p>El descuento se aplica automáticamente abonando por transferencia bancaria. Acumulable con otras promociones!!</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>Calculá tu descuento</h3>
+    <form id="promoForm" class="promo-form">
+      <label for="promocion" class="uniform-label">Seleccioná una promoción:</label>
+      <select id="promocion" required>
+        <option value="">-- Elegí una opción --</option>
+        <option value="2x50">Llevá 2 racks para TV y obtené 50% en el segundo</option>
+        <option value="3x2">3x2 en lámparas</option>
+      </select>
+
+      <div id="productosContainer"></div>
+
+      <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+</main>
+
+    <footer>
+      © Racks&Racks — Diseño y fabricación de racks para TV.
+    </footer>
+  </div>
+
+  <script src="../promociones.js"></script>
+</body>
+
+</html>
