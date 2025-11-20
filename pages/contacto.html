@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Racks&Racks — Contacto</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
+
+<body class="inicio">
   <div class="box">
     <header>
       <div class="brand">
-        <div class="logo"></div>
-        <div>
+        <div class="logo">
+          <img src="../img/logo.jpeg" alt="logo">
           <h1>Racks&Racks</h1>
-          <div class="tag">Racks de TV • Diseño moderno</div>
+          <h3 class="tag">Racks de TV • Diseño moderno</h3>
         </div>
       </div>
       <nav>
@@ -26,18 +30,44 @@
       </nav>
     </header>
 
-<main>
-  <h2>Ubicación y contacto</h2>
-  <p><strong>Dirección:</strong> Galería, Local xx - Centro Comercial</p>
-  <p><strong>Teléfono:</strong> +54 11 1234 5678</p>
-  <p><strong>Email:</strong> contacto@racks.com</p>
-  <p><strong>Redes Sociales:</strong> @racksyracks</p>
-</main>
+    <main class="container">
+      <section class="info-contacto card">
+        <h2>Contáctanos</h2>
+        <div class="contact-items">
+          <p class="contact-item">📍 <strong>Centro comercial Plaza Delta.<br>Dirección:</strong> Av. Córdoba 4800, esq.
+            Gascón. CABA</p>
+          <p class="contact-item">📞 <strong>Teléfono:</strong> +54 11 0011-5008</p>
+          <p class="contact-item">✉️ <strong>Email:</strong> info@racksracks.com</p>
+          <p class="contact-item">⏰ <strong>Horarios:</strong> Lunes a Sábado: 10:00 - 22:00 <br> Domingos y Feriados:
+              10:00 - 21:00</p>
+        </div>
+      </section>
 
+
+      <section class="form-contacto">
+        <h2>Envianos un mensaje</h2>
+        <form id="contactForm">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+        <div id="formMensaje" style="margin-top:12px;color:var(--accent-2);display:none;">¡Mensaje enviado con éxito! 😊
+        </div>
+      </section>
+    </main>
 
     <footer>
       © Racks&Racks — Diseño y fabricación de racks para TV.
     </footer>
-  </div>
+
+    <script src="../js/contacto.js"></script>
 </body>
+
 </html>
