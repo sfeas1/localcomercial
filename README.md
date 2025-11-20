@@ -44,6 +44,6 @@ El sitio sigue una línea visual moderna, minimalista y funcional:
 
 ---
 
-### Objetivo
+## 👓 Objetivo
 
 El sitio busca reflejar la identidad de la marca con un diseño **moderno, minimalista y funcional**, resaltando los productos en un entorno visual elegante y ofreciendo al usuario herramientas interactivas para conocer promociones y descuentos de manera clara y práctica.
